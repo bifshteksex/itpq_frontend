@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>itpq - Recruitment Service</title>
+  <title>itpq - Поиск вакансий</title>
 </svelte:head>
 
 <main class="flex-grow py-8 flex flex-col max-w-[1440px] mx-auto">

@@ -207,7 +207,22 @@
         <form on:submit|preventDefault={applyFilters}>
           <label class="block mb-2">
             Зарплата:
-            <input type="number" class="border p-2 w-full text-black rounded" />
+            <div class="flex items-center gap-x-3">
+              <div>
+                <span>От</span>
+                <input
+                  type="number"
+                  class="border p-2 w-full text-black rounded"
+                />
+              </div>
+              <div>
+                <span>До</span>
+                <input
+                  type="number"
+                  class="border p-2 w-full text-black rounded"
+                />
+              </div>
+            </div>
           </label>
 
           <div class="flex justify-end mt-4">
